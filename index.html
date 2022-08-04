@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>U-Radio</title>
+	<meta name="description" content=" ">
+	<meta name="keywords" content=" ">
+	<!--<link rel="stylesheet" href="css/main.css">
+	<!--<link rel="stylesheet" href="css/media.css"> -->
+	<link rel="stylesheet" href="css/fonts.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+
+<!-- Audio Player CSS & Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="css/Style.css" media="screen">
+	<!-- end Audio Player CSS & Scripts -->
+
+	<style type="text/css">
+		html, body { margin: 0;	padding: 0; }
+		
+		.audio-player { margin: 0 auto;}
+	</style>
+<meta name="robots" content="noindex,follow" />
+
+</head>
+
+<body>
+	<header>
+		<nav class="dws-menu">
+		
+			<div class="wrapper">
+			  <div class="left"></div>
+			  <div class="container">
+			  
+				<div class="center">
+					<h1>До начала эфира осталось:</h1>
+					
+					<hr>
+					
+					<p1 id="timer"></p1>
+				</div>
+				<img src="images/logotip.png" alt="U-Radio" class="logo">
+				</div>
+			</div>
+			
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#">Плеер</a></li>
+				<li><a href="#">Подкасты</a>
+					<ul>
+						<li><a href="ПС.html">ПС</a></li>
+						<li><a href="Лига КВН.html">Лига КВН</a></li>
+						<li><a href="Новая весна.html">Новая весна</a></li>
+						<li><a href="Приемная комиссия СФУ.html">Приемная комиссия СФУ</a></li>
+						<li><a href="МузNews.html">МузNews</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Трансляция</a></li>
+				<li><a href="#">О нас</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--<script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script> -->
+	
+	    <center>
+        <div >
+            <button class="click"></button>
+        </div>
+        </center>
+        
+	
+	
+<div class="raz">
+  <h4 align="center">Расписание вещания</h4>
+  <section>
+   <div class="timetable">
+	<div class="square1"><span>Обеденный эфир</span><span>13:30 — 14:10</span></div>
+	<div class="square2"><span>Вечерний эфир</span><span>18:00 — 20:00</span></div>
+	<div class="square3"><span>Подкасты, интервью, заметки</span><span>24 часа в сутки</span></div>
+  </div>
+  </section>
+  <h4 align="center">Слушай нас в записи</h4>
+  <section>
+    <div class="Listenr" style="margin-left:20px; margin-right:20px;">
+     <div class="left_menu">
+          <a href="Хочу в команду.html">Хочу в команду</a>
+          <div class="socialnetworks">
+          Наши соц сети:
+          <a href="https://www.instagram.com/uradio_sfu/"><i class="fa fa-instagram"></i></a>
+          <a href="https://vk.com/uradio_sfu"><i class="fa fa-vk"></i></a>
+          </div>
+          Смотреть трансляцию
+      </div>
+      <div class="podcasts">
+      <ul>
+         <li><a href="ПС.html">ПС</a></li>
+         <li><a href="Лига КВН.html">Лига КВН</a></li>
+         <li><a href="Новая весна.html">Новая весна</a></li>
+         <li><a href="Приемная комиссия СФУ.html">Приемная комиссия СФУ</a></li>
+         <li><a href="МузNews.html">МузNews</a></li>
+    </ul>
+     
+   
+     
+      </div>
+  </div>
+  </section>
+  <h4 align="center">Команда U-Radio</h4>
+  <section style="margin-bottom: 40px">
+  <div style="margin-left:20px; margin-right:20px;margin-bottom: 20px">
+  
+</div>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 16</div>
+    <img src="images/Command people/Арина Тарасова.jpeg" style="width:100%">
+    <div class="text">Арина Тарасова — руководитель, ведущая подкастов и эфиров</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 16</div>
+    <img src="images/Command people/Екатерина Гавенко.jpeg" style="width:100%">
+    <div class="text">Екатерина Гавенко — руководитель социальных сетей, ведущая подкастов и эфиров</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 16</div>
+    <img src="images/Command people/Ксения Василенко.jpg" style="width:100%">
+    <div class="text">Ксения Василенко — райтер</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 16</div>
+    <img src="images/Command people/Валерия Пискун.jpg" style="width:100%">
+    <div class="text">Валерия Пискун — ведущая подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 16</div>
+    <img src="images/Command people/Вероника Старостина.jpg" style="width:100%">
+    <div class="text">Вероника Старостина — ведущая подкастов и эфиров, монтажёр</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 16</div>
+    <img src="images/Command people/Дмитрий Заднепрянов.jpg" style="width:100%">
+    <div class="text">Дмитрий Заднепрянов — ведущий подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 16</div>
+    <img src="images/Command people/Дарья Ржевская.jpg" style="width:100%">
+    <div class="text">Дарья Ржевская — ведущая подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 16</div>
+    <img src="images/Command people/Егор Симонькин.jpg" style="width:100%">
+    <div class="text">Егор Симонькин — монтажёр, ведущий подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 16</div>
+    <img src="images/Command people/Александра Киселёва.jpg" style="width:100%">
+    <div class="text">Александра Киселёва — райтер</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 16</div>
+    <img src="images/Command people/Павел Коваленко.jpg" style="width:100%">
+    <div class="text">Павел Коваленко — ведущий подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 16</div>
+    <img src="images/Command people/Тимур Умаев.jpg" style="width:100%">
+    <div class="text">Тимур Умаев — ведущий подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">12 / 16</div>
+    <img src="images/Command people/Игорь Акулов.jpg" style="width:100%">
+    <div class="text">Игорь Акулов — ведущий подкастов и эфиров, автор проекта МузNews</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">13 / 16</div>
+    <img src="images/Command people/Мария Набатникова.jpg" style="width:100%">
+    <div class="text">Мария Набатникова — райтер, ведущая подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">14 / 16</div>
+    <img src="images/Command people/Настя Аскарова.jpg" style="width:100%">
+    <div class="text">Настя Аскарова — райтер, ведущая подкастов</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">15 / 16</div>
+    <img src="images/Command people/Костян Ермош.jpg" style="width:100%">
+    <div class="text">Костян Ермош — ведущий подкастов и эфиров</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">16 / 16</div>
+    <img src="images/Command people/Вадим Ковалевский.jpg" style="width:100%">
+    <div class="text">Вадим Ковалевский — звукорежиссер, ведущий подкастов и эфиров</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+</div>
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = slides.length
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+</script> 
+</section>
+</div>
+<div class="footer"><center><p>© Радиостанция «U-Radio». Разработка сайта Project Radio.</p></center></div>
+<div class="sticky">
+	 <div class="audio-player">
+   <audio id="audio-player" src="http://193.218.136.87:8000/128kbit" type="audio/mp3" controls="controls"></audio>
+        <div class="panel___item">
+            <button class="panel-btn" style="width: 230px"></button>
+        </div>
+        <div class="panel___item" style="width:10%" >ON AIR: </div>
+        <div class="panel___item" style="width:100%">Название песни</div>
+        <div class="panel___item">
+            <button class="panel-btn"><i class="fa fa-list"></i></button>
+        </div>
+    </div>
+		
+	<!-- Audio Player HTML -->
+	
+	<script>
+		$(document).ready(function() {
+			$('#audio-player').mediaelementplayer({
+				alwaysShowControls: true,
+				features: ['playpause','volume','progress'],
+				audioVolume: 'horizontal',
+				audioWidth: 40,
+				audioHeight: 40
+			});
+		});
+	</script>
+	<!-- end Audio Player HTML -->
+</div>
+</body>
+</html>

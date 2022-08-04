@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Новая весна</title>
+	<meta name="description" content=" ">
+	<meta name="keywords" content=" ">
+	<!--<link rel="stylesheet" href="css/main.css">
+	<!--<link rel="stylesheet" href="css/media.css"> -->
+	<link rel="stylesheet" href="css/fonts.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+
+<!-- Audio Player CSS & Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="css/Style.css" media="screen">
+	<!-- end Audio Player CSS & Scripts -->
+
+	<style type="text/css">
+		html, body { margin: 0;	padding: 0; }
+		
+		.audio-player { margin: 0 auto;}
+	</style>
+<meta name="robots" content="noindex,follow" />
+
+</head>
+
+<body>
+	<header>
+		<nav class="dws-menu">
+		
+			<div class="wrapper">
+			  <div class="left"></div>
+			  <div class="container">
+			  
+				<div class="center">
+					<h1>До начала эфира осталось:</h1>
+					
+					<hr>
+					
+					<p1 id="timer"></p1>
+				</div>
+				<img src="images/logotip.png" alt="U-Radio" class="logo">
+				</div>
+			</div>
+			
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="#">Плеер</a></li>
+				<li><a href="#">Подкасты</a>
+					<ul>
+						<li><a href="ПС.html">ПС</a></li>
+						<li><a href="Лига КВН.html">Лига КВН</a></li>
+						<li><a href="Новая весна.html">Новая весна</a></li>
+						<li><a href="Приемная комиссия СФУ.html">Приемная комиссия СФУ</a></li>
+						<li><a href="МузNews.html">МузNews</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Трансляция</a></li>
+				<li><a href="#">О нас</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<!--<script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script> -->
+	
+	    <center>
+        <div >
+            <button class="click"></button>
+        </div>
+        </center>
+        
+	
+	
+<div class="raz">
+  <h4 align="center">Новая весна</h4>
+  <center>
+  U-Radio - Конкурс вокальных групп __ Новая весна 2020.mp3<br>
+  <audio src="./audio/Новая весна/U-Radio - Конкурс вокальных групп __ Новая весна 2020.mp3" type="audio/mp3" controls="controls"></audio><br>
+  U-Radio - Новая весна - Институтские программы 1.mp3<br>
+  <audio src="./audio/Новая весна/U-Radio - Новая весна - Институтские программы 1.mp3" type="audio/mp3" controls="controls"></audio><br>
+  U-Radio - Новая весна - Институтские программы №2.mp3<br>
+  <audio src="./audio/Новая весна/U-Radio - Новая весна - Институтские программы №2.mp3" type="audio/mp3" controls="controls"></audio><br>
+  </center>
+</div>
+<div class="footer"><center><p>© Радиостанция «U-Radio». Разработка сайта Project Radio.</p></center></div>
+<div class="sticky">
+	 <div class="audio-player">
+   <audio id="audio-player" src="http://193.218.136.87:8000/128kbit" type="audio/mp3" controls="controls"></audio>
+        <div class="panel___item">
+            <button class="panel-btn" style="width: 230px"></button>
+        </div>
+        <div class="panel___item" style="width:10%" >ON AIR: </div>
+        <div class="panel___item" style="width:100%">Название песни</div>
+        <div class="panel___item">
+            <button class="panel-btn"><i class="fa fa-list"></i></button>
+        </div>
+    </div>
+		
+	<!-- Audio Player HTML -->
+	
+	<script>
+		$(document).ready(function() {
+			$('#audio-player').mediaelementplayer({
+				alwaysShowControls: true,
+				features: ['playpause','volume','progress'],
+				audioVolume: 'horizontal',
+				audioWidth: 40,
+				audioHeight: 40
+			});
+		});
+	</script>
+	<!-- end Audio Player HTML -->
+</div>
+</body>
+</html>

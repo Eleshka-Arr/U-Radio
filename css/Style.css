@@ -1,0 +1,547 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	margin: 0 auto; 
+}
+body {margin: 0; padding: 0; font-family: 'RobotoRegular', Helvetica, Arial, sans-serif; }
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-weight: normal;
+	font-family: 'RobotoLight', Helvetica, Arial, sans-serif;
+}
+.wrapper {
+  display: flex;
+    height: 200px;
+}
+
+.container{
+    background: url(../images/Cap.jpg) no-repeat;
+    background-size: cover;
+	width: 100%;
+	color: white;
+    height: 200px;
+ }
+ .center{
+	 position: absolute;
+	 left: 50%;
+	 min-height: 200px;
+	 text-align: center;
+ }
+.left{
+    background-image: url(../images/logotip.png);
+    height: 200px;
+    
+}
+ h1, p1 {
+	 font-family: sans-serif;
+	 font-weigh: lighter;
+ }
+ h1 {
+	 font-size: 30px;
+ }
+ p1 {
+	 font-size: 30px;
+	 letter-spacing: 5px;
+ }
+ 
+ 
+header{
+	margin-top 200px;
+	font-family Cuprum, Arial, Helvetical, sans-serif;
+}
+
+
+.dws-menu *{
+	margin 0;
+	padding 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.dws-menu > ul li a{
+	display: block;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fcfcfc+0,e3e3e3+100 */
+	background: #fcfcfc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfcfc 0%, #e3e3e3 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcfcfc 0%,#e3e3e3 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcfcfc 0%,#e3e3e3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e3e3e3',GradientType=0 ); /* IE6-9 */
+	padding: 15px 30px 15px 40px;
+	font-size: 14px;
+	color: #454547;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+.dws-menu > ul li{
+position: relative;
+border-right: 1px solid #c7c8ca;
+}
+.dws-menu > ul li: first-child{
+	border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li: last-child{
+	border-right: 1px solid #babbb;
+}
+.dws-menu li a:hover{
+	background: #454547;
+	color: #ffffff;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+
+/*Sub menu*/
+.dws-menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+.dws-menu li > ul li{
+	bolder: 1px solid #c7c8ca;
+}
+.dws-menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #e4e4e5;
+}
+.dws-menu li:hover > ul{
+	display: block;
+}
+/*Sticky*/
+.raz {
+  border: 1px solid red;
+  background: #ffffff;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.71);
+  margin-top: 20px;
+}
+.sticky {
+  position: sticky;
+  bottom: 0;
+  min-height: 38px;
+  background: lightpink;
+}	
+
+h4 {
+	 font-size: 30px;
+ }
+.footer{
+	height: 100px;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bold;
+	color: #fff;
+	background: #505050;
+	min-height: 30px;
+	line-height: 30px;
+}
+audio, 
+audio:active, 
+audio:focus {
+    outline: none;
+}
+div{
+	 
+	
+}
+/*timetable*/
+.timetable{
+	display: flex;
+}
+.square1, .square2, .square3 {
+	width: 250px; height: 250px;
+    display: inline-block;
+    margin-right: 50px;
+	background: white;
+	text-align: center;
+    
+}
+.square1{
+	 margin-left: 50px;
+	 background-image: url(../images/cup.png);
+	 background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin: auto;
+}
+.square2{
+	 background-image: url(../images/sofa.png);
+	 background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin: auto;
+}
+.square3{
+	 background-image: url(../images/icon-ipod.png);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  margin: auto;
+}
+span{
+  width: 70%;
+  font-size: 18px;
+}
+/*Player*/
+i.fa{
+	top: 15px;
+	left: 12px;
+	font-size: 20px;
+}
+
+
+.click{
+    height: 150px;
+    width: 150px;
+    border-radius: 50% 50% 50% 50%;
+    background-image: url(../images/play-button.png);
+    cursor: pointer;
+}
+.listenr{
+    padding-left: 0;
+    height:50px;
+}
+.left_menu, .podcasts {
+	 
+     display: inline-block;
+    outline:1px solid black;
+    margin-right:5px;
+    height:100%;
+    width:50px;
+    color: orange;
+}
+.left_menu{
+    width: 300px;
+    padding: 5px; /* Поля вокруг текста */
+  margin: 5px;
+}
+
+.left_menu a{
+    color: orange;
+}
+.socialnetworks{
+    color: orange;
+    
+    
+}
+.socialnetworks a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    margin: 3px;
+    border-radius: 30%;
+    text-align: center;
+}
+.socialnetworks a i{
+    color: #0088CC;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.socialnetworks a:hover{
+    background: #0088CC;
+    transition: 1s;
+}
+.socialnetworks a:hover i{
+    color: #f1f1f1;
+    transition: 1s;
+    transform: scale(1.3);
+}
+.podcasts{
+  margin: 5px;
+    padding: 5px; /* Поля вокруг текста */
+    width: 400px; /* Ширина слоя */
+    
+}
+.podcasts li a{
+  margin: 5px;
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+.audio-player{
+    display: table;
+    width: 100%;
+    height: 40px;
+}
+.panel___item{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+    width: 1%;
+    height: 25px;
+    font-size: 20px;
+}
+.panel-btn{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.audio-player,
+.audio-player div,
+.audio-player button {
+	
+	border: none;
+	outline: none;
+}
+
+.mejs-controls{
+    display: table;
+    width: 230px;
+    height: 40px;
+}
+
+/* Buttons */
+.mejs-controls, .mejs-button button {
+	
+	display: block;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+.mejs-button button{
+     cursor: pointer;
+}
+/* Play & Pause */
+.mejs-controls .mejs-play button,
+.mejs-controls .mejs-pause button {
+    
+    width: 21px;
+	height: 21px;
+	top: 8px;
+	left: 5px;
+	background: transparent url(../images/play-pause.png) 0 0;
+}
+
+.mejs-controls .mejs-pause button { background-position:0 -21px; }
+
+/* Mute & Unmute */
+.mejs-controls .mejs-mute button,
+.mejs-controls .mejs-unmute button {
+	
+    width: 14px;
+	height: 12px;
+	top: 13px;
+	left: 40px;
+	background: transparent url(../images/mute-unmute.png) 0 0;
+}
+
+.mejs-controls .mejs-unmute button { background-position: 0 -12px; }
+
+/* Volume Slider */
+.mejs-controls div.mejs-horizontal-volume-slider {
+	
+    position: absolute;
+	top: 15px;
+	left: 70px;
+	cursor: pointer;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	width: 200px;
+	height: 8px;
+	background: #212227;
+	-webkit-box-shadow: inset 0px 1px 0px rgba(0,0,0, .3), 0px 1px 0px rgba(255,255,255, .25);
+	-moz-box-shadow: inset 0px 1px 0px rgba(0,0,0, .3), 0px 1px 0px rgba(255,255,255, .25);
+	box-shadow: inset 0px 1px 0px rgba(0,0,0, .3), 0px 1px 0px rgba(255,255,255, .25);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	position: absolute;
+	width: 0;
+	height: 6px;
+	top: 0.5px;
+	left: 1px;
+	background: url(../images/volume-bar.png) repeat-x;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+
+/* Volume Slider & Progress Bar Handle */
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+	position: absolute;
+	display: block;
+	width: 12px;
+	height: 14px;
+	top: -4px;
+	background: url(../images/handle.png) no-repeat;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle { top: -2px; }
+
+
+
+
+
+* {
+  box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
